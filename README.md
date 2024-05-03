@@ -3,6 +3,7 @@
   <p align="left">
     Projetos feitos na sequência de aulas do framework CSS Bootstrap pelo Professor Matheus Battisti pelo canal 
    <a href="https://www.youtube.com/@MatheusBattisti">Matheus Battisti - Hora de Codar</a>
+   <!--, pelo professor xxxxxx -->
   </p>
 </div>
 
