@@ -26,6 +26,7 @@
     <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
 </head>
 <body>
+    <!-- Header -->
     <header>
         <div class="container" id="nav-container">
             <nav class="navbar navbar-expand-lg fixed-top">
@@ -38,25 +39,27 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
                     <div class="navbar-nav">
-                        <a class="nav-item nav-link" id="home-menu">Home</a>
-                        <a class="nav-item nav-link" id="about-menu">The Agency</a>
-                        <a class="nav-item nav-link" id="services-menu">Services</a>
-                        <a class="nav-item nav-link" id="team-menu">Team</a>
-                        <a class="nav-item nav-link" id="porfolio-menu">Projects</a>
-                        <a class="nav-item nav-link" id="contact-menu">Contact</a>
+                        <a href="#" class="nav-item nav-link" id="home-menu">Home</a>
+                        <a href="#" class="nav-item nav-link" id="about-menu">The Agency</a>
+                        <a href="#" class="nav-item nav-link" id="services-menu">Services</a>
+                        <a href="#" class="nav-item nav-link" id="team-menu">Team</a>
+                        <a href="#" class="nav-item nav-link" id="porfolio-menu">Projects</a>
+                        <a href="#" class="nav-item nav-link" id="contact-menu">Contact</a>
                     </div>
                 </div>
             </nav>
         </div>
     </header>
+    <!-- Content -->
     <main>
         <!-- Slider -->
         <div class="container-fluid">
             <div id="mainSlider" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button id="indicators" type="button" data-bs-target="#mainSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button id="indicators" type="button" data-bs-target="#mainSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button id="indicators" type="button" data-bs-target="#mainSlider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <!-- you can add as many as you want, changing the data-bs-slide-to="<ultimo numero + 1>" and the aria-label="Slide <ultimo slide + 1>"-->                
                 </div>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -83,6 +86,16 @@
                         <a href="#" class="main-btn">Contact Us</a>
                     </div>
                   </div>
+                  <!-- you can add as many as you want, using:
+                  <div class="carousel-item">
+                    <img src="./src/img/<image-filename>.<extension>" class="d-block w-100" alt="<alt image>">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2><title here></h2>
+                        <p><paragraph here></p>
+                        <a href="#" class="main-btn"><button text here></a>
+                    </div>
+                  </div>
+                  -->
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#mainSlider" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -116,7 +129,7 @@
                   <li><i class="fas fa-check"></i> All devices responsive layout</li>
                   <li><i class="fas fa-check"></i> Integration with various market systems</li>
                   <li><i class="fas fa-check"></i> Own payment system</li>
-                  <li><i class="fas fa-check"></i> Agile Methodology developement</li>
+                  <li><i class="fas fa-check"></i> Agile Methodology development</li>
                 </ul>
               </div>
             </div>
@@ -162,7 +175,203 @@
             </div>
           </div>
         </div>
+        <!-- Data -->
+        <div id="data-area">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3 circle-box">
+                <div id="circleA"></div>
+                <p>Completed Projects</p>
+              </div>
+              <div class="col-md-3 circle-box">
+                <div id="circleB"></div>
+                <p>Happy Clients</p>
+              </div>
+              <div class="col-md-3 circle-box">
+                <div id="circleC"></div>
+                <p>Active Collaborators</p>
+              </div>
+              <div class="col-md-3 circle-box">
+                <div id="circleD"></div>
+                <p>Coffee Cups Taken</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Team -->
+        <div id="team-area">
+          <div class="container">
+            <div class="row">
+              <div class="class-12">
+                <h3 class="main-title">Our Team</h3>
+              </div>
+              <div class="col-md-3">
+                <div class="card">
+                  <img src="./src/img/profile1.jpg" alt="Profile image 1" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Josh H.</h5>
+                    <p class="class-text">Software Developer</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card">
+                  <img src="./src/img/profile2.jpg" alt="Profile image 1" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Mary Anna</h5>
+                    <p class="class-text">SEO Consultant</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card">
+                  <img src="./src/img/profile3.jpg" alt="Profile image 1" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Paul O.</h5>
+                    <p class="class-text">Project Manager</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card">
+                  <img src="./src/img/profile4.jpg" alt="Profile image 1" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Kary Inna</h5>
+                    <p class="class-text">UX/UI Desginer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Contact -->
+        <div id="apply-area">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-6 apply-box" id="company-img"></div>
+              <div class="col-md-6 apply-box" id="pattern-img">
+                <h4>Do you like Challenges?</h4>
+                <p>We have many open positions, such as: Software Engineer, UI/UX Desginer, Project Manager and more.</p>
+                <p>Click on the button below and check the benefoits and the open positions.</p>
+                <p>Here you have the chance to work with the best technologies and the most capacited professionals.</p>
+                <a href="#" class="main-btn" id="apply-btn">Find Out More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Portfolio -->
+        <div id="portfolio-area">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h3 class="main-title">See Our Projects</h3>
+              </div>
+              <div class="col-md-12" id="filter-btn-box">
+                <button id="all-btn" class="main-btn filter filter-btn active">All</button>
+                <button id="dev-btn" class="main-btn filter filter-btn">Development</button>
+                <button id="dsg-btn" class="main-btn filter filter-btn">Design</button>
+                <button id="seo-btn" class="main-btn filter filter-btn">SEO</button>
+                <!-- you can add as many as you want, using:
+                <button id="<filter>-btn" class="main-btn filter filter-btn"><Filter text></button>
+                -->
+              </div>
+              <div class="col-md-4 project-box dev">
+                <img src="./src/img/proj1.jpg" alt="Project 1" class="img-fluid">
+              </div>
+              <div class="col-md-4 project-box dsg">
+                <img src="./src/img/proj2.jpg" alt="Project 2" class="img-fluid">
+              </div>
+              <div class="col-md-4 project-box seo">
+                <img src="./src/img/proj3.jpg" alt="Project 3" class="img-fluid">
+              </div>
+              <div class="col-md-4 project-box dev">
+                <img src="./src/img/proj4.jpg" alt="Project 4" class="img-fluid">
+              </div>
+              <div class="col-md-4 project-box dsg">
+                <img src="./src/img/proj5.jpg" alt="Project 5" class="img-fluid">
+              </div>
+              <div class="col-md-4 project-box seo">
+                <img src="./src/img/proj6.jpg" alt="Project 6" class="img-fluid">
+              </div>
+              <!-- you can add as many as you want, using:
+              <div class="col-md-4 project-box <filter name>">
+                <img src="./src/img/<image-filename>.<extension>" class="img-fluid" alt="<alt image>">
+              </div>
+              -->
+            </div>
+          </div>
+        </div>
+        <!-- Newsletter -->
+        <div id="news-area">
+          <div class="container">
+            <div class="col-md-12">
+              <h3 class="main-title">Stay under the news</h3>
+            </div>
+            <p>Sign up our emails list and receive our content about software development.</p>
+            <form action="">
+              <input type="email" name="email" id="email-input" class="form-control" placeholder="Your best email">
+              <input type="submit" value="Subscribe" id="news-btn">
+            </form>
+          </div>
+        </div>
+        <!-- Call to action -->
+        <div id="call-area">
+          <div class="container">
+            <div class="row">
+              <p>Do you want to make a free quote?</p>
+              <button class="main-btn" id="call-btn">Budget</button>
+            </div>
+          </div>
+        </div>
     </main>
+    <!-- Footer -->
+    <footer>
+      <!-- Contact -->
+      <div id="contact-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="main-title">Contact Us</div>
+            </div>
+            <div class="col-md-4 contact-box">
+              <i class="fas fa-phone"></i>
+              <p><span class="contact-title">Call to: </span>(99) 99999-9999</p>
+              <p><span class="contact-title">Work time: </span>8:00 a.m. - 7:00 p.m.</p>
+            </div>
+            <div class="col-md-4 contact-box">
+              <i class="fas fa-envelope"></i>
+              <p><span class="contact-title">Send an Email: </span> contact@hdagency.com</p>
+            </div>
+            <div class="col-md-4 contact-box">
+              <i class="fas fa-location-dot"></i>
+              <p><span class="contact-title">Come to take a Coffee Cup: </span> Lorem Ipsum Road - 1234</p>
+            </div>
+            <div class="col-md-6" id="msg-box">
+              <p>Or left us a message:</p>
+            </div>
+            <div class="col-md-6" id="contact-form">
+              <form action="">
+                <input type="email" name="email" class="form-control" placeholder="E-mail">
+                <input type="text" name="suject" class="form-control" placeholder="Subject">
+                <textarea rows="3" class="form-control" placeholder="Your message..." name="message"></textarea>
+                <input type="submit" value="Send" class="main-btn">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Copy Area -->
+      <div id="copy-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <p>Developed by <a href="#" target="_blank">hDC Agency</a>&copy; 2020</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Project Scripts -->
     <script src="./src/js/script.js"></script>
 </body>
 </html>
