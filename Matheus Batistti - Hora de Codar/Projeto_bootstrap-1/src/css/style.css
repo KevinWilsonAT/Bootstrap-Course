@@ -543,6 +543,10 @@ header, .navbar {
     }
     
     /* Data Area */
+    #data-area {
+        height: 150px;
+    }
+
     #data-area p {
         font-size: 16px;
     }
@@ -625,6 +629,10 @@ header, .navbar {
     }
 
     /* Data Area */
+    #data-area {
+        height: 360px;
+    }
+
     .circle-box {
         width: 50%;
     }
