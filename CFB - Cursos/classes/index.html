@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Class 01 Start - How to use Bootstrap -->
+        <!-- Import Bootstrap CSS, Bootstrap Scripts  -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="./src/css/style.css">
+        <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script> -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        
+        <title>Classes</title>
+</head>
+<body>
+    <!-- Class 01 End -->
+
+    <h1>Class 02</h1>
+
+    <!-- Class 02 Start - How to use container -->
+        <!-- Fixed Container: adjusts the container to have a padding from the sides and centered container -->
+        <div class="container">
+            <h1>CFB Cursos - Bootstrap 5 Course</h1>
+            <p> Fixed Container. Fixed Container. Fixed Container. Fixed Container. Fixed Container.
+                Fixed Container. Fixed Container. Fixed Container. Fixed Container. Fixed Container.
+                Fixed Container. Fixed Container. Fixed Container. Fixed Container. Fixed Container.
+                Fixed Container. Fixed Container. Fixed Container. Fixed Container. Fixed Container.
+                Fixed Container. Fixed Container. Fixed Container. Fixed Container. Fixed Container.
+            </p>
+        </div>
+
+        <br><hr><br>
+        
+        <!-- Fluid Container: always adjusts the container to have 100% browser width -->
+        <div class="container-fluid">
+            <h1>CFB Cursos - Bootstrap 5 Course</h1>
+            <p> Fluid Container. Fluid Container. Fluid Container. Fluid Container. Fluid Container.
+                Fluid Container. Fluid Container. Fluid Container. Fluid Container. Fluid Container.
+                Fluid Container. Fluid Container. Fluid Container. Fluid Container. Fluid Container.
+                Fluid Container. Fluid Container. Fluid Container. Fluid Container. Fluid Container.
+                Fluid Container. Fluid Container. Fluid Container. Fluid Container. Fluid Container.
+            </p>
+        </div>
+        
+        <br><hr><br>
+        
+        <!-- Border Container: add a border to the container -->
+        <div class="container border">
+            <h1>CFB Cursos - Bootstrap 5 Course</h1>
+            <p> Border in the Container. Border in the Container. Border in the Container. Border in the Container. Border in the Container.
+                Border in the Container. Border in the Container. Border in the Container. Border in the Container. Border in the Container.
+            </p>
+        </div>
+
+        <br><hr><br>
+
+        <!-- Modify Container Padding: p-<0~5> -> pad. all 4 sides
+            pt-<0~5> -> pad. top             pb-<0~5> -> pad. bottom            py-<0~5> -> pad. top + bottom
+            ps-<0~5> -> pad. left (start)    pe-<0~5> -> pad. right (end)       px-<0~5> -> pad. left + right
+        -->
+        <div class="container border p-5">
+            <h1>CFB Cursos - Bootstrap 5 Course</h1>
+            <p> Padded 5 Container. Padded 5 Container. Padded 5 Container. Padded 5 Container. Padded 5 Container.
+                Padded 5 Container. Padded 5 Container. Padded 5 Container. Padded 5 Container. Padded 5 Container.
+            </p>
+        </div>
+
+        <br><hr><br>
+
+        <!-- Background bg-dark: dark color background      Text-color: text-<color> -->
+        <div class="container border bg-dark text-white">
+            <h1>CFB Cursos - Bootstrap 5 Course</h1>
+            <p> Dark Color Container. Dark Color Container. Dark Color Container. Dark Color Container. Dark Color Container.
+                Dark Color Container. Dark Color Container. Dark Color Container. Dark Color Container. Dark Color Container.
+            </p>
+        </div>
+        
+        <br><hr><br>
+
+        <!-- Background bg-primary: primary color background -->
+        <div class="container border bg-primary">
+            <h1>CFB Cursos - Bootstrap 5 Course</h1>
+            <p> Primary Color Container. Primary Color Container. Primary Color Container. Primary Color Container. Primary Color Container.
+                Primary Color Container. Primary Color Container. Primary Color Container. Primary Color Container. Primary Color Container.
+            </p>
+        </div>
+
+        <!-- Container sizes:
+            Class               < 576px     >= 576px    >= 768px    >= 992px    >= 1200px   >= 1400px
+            .container-sm         100%        540px       720px       960px       1140px      1320px
+            .container-md         100%        100%        720px       960px       1140px      1320px
+            .container-lg         100%        100%        100%        960px       1140px      1320px
+            .container-xl         100%        100%        100%        100%        1140px      1320px
+            .container-xxl        100%        100%        100%        100%        100%        1320px
+        -->
+
+        <br><hr><br>
+
+    <!-- Class 02 End -->
+
+    <h1>Class 03</h1>
+
+    <!-- Class 03 Start - Grids:
+        row class defines the div to act like a table row
+        col class inside the div with row class defines the div to act like a table cell
+    -->
+
+        <div class="container-fluid border border-primary p-3">
+            <div class="row border border-dark">
+                <div class="col border">Column 1</div>
+                <div class="col border">Column 2</div>
+                <div class="col border">Column 3</div>
+            </div>
+        </div>
+        
+        <!-- Column sizes: works the same as the container sizes -->
+
+    <!-- Class 03 End -->
+</body>
+</html>
+
+<!-- Class 02 Start -->
+<!-- Class 02 End -->
