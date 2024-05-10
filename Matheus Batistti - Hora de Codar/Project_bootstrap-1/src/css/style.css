@@ -252,7 +252,7 @@ header, .navbar {
 #company-img {
     background-image: url('../img/empresa.jpg');
     background-size: cover;
-    height: 102%;
+    height: 100%;
 }
 
 #pattern-img h4, #pattern-img p {
@@ -520,11 +520,11 @@ header, .navbar {
     }
     
     #mainSlider .carousel-caption h2 {
-        font-size: 28px;
+        font-size: 26px;
     }
 
     #mainSlider .carousel-caption p {
-        font-size: 18px;
+        font-size: 17px;
     }
 
     .carousel-caption {
