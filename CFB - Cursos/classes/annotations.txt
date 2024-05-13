@@ -7,7 +7,7 @@ Class 02: Containers, Borders, Backgrounds and Text Colors
 	
 	- Bordered Fixed/Fluid Container: add a border to the container
 		<div class="container border"> content </div>
-		<div class="container-fluid borer"> content </div>
+		<div class="container-fluid border"> content </div>
 		
 	- Modify Container Padding:
 		<div class="container border p<0~5>"> Padding all 4 sides </div>
@@ -220,6 +220,28 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 
 Class 11
+
+	btn: applies bootstrap style button on the element
+	btn btn-primary: applies bootstrap primary color as background color on the element
+    btn btn-secondary: applies bootstrap secondary color as background color on the element
+    btn btn-success: applies bootstrap success	color as background color on the element
+    btn btn-info: applies bootstrap info color as background color on the element
+	btn btn-warning: applies bootstrap warning color as background color on the element
+    btn btn-danger: applies bootstrap danger color as background color on the element
+    btn btn-dark: applies bootstrap dark color as background color on the element
+    btn btn-light: applies bootstrap light color as background color on the element
+    btn btn-link: applies bootstrap link style on the element
+	
+	btn btn-outline-primary: applies bootstrap primary color as outline color on the element
+    btn btn-outline-secondary: applies bootstrap secondary color as outline color on the element
+    btn btn-outline-success: applies bootstrap success	color as outline color on the element
+    btn btn-outline-info: applies bootstrap info color as outline color on the element
+	btn btn-outline-warning: applies bootstrap warning color as outline color on the element
+    btn btn-outline-danger: applies bootstrap danger color as outline color on the element
+    btn btn-outline-dark: applies bootstrap dark color as outline color on the element
+    btn btn-outline-light: applies bootstrap light color as outline color on the element
+	
+	disable: applying this as an attribute to the element (not a class nor an id), will disable the button
 
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
