@@ -249,6 +249,20 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 
 Class 12:
+	btn-group: groups the buttons inside the element with that attribute with horizontal line orientation
+	btn-group-vertical: groups the buttons inside the element with that attribute with vertical line orientation
+	
+	btn-group-sm: groups the buttons inside the element with that attribute and turn them into small buttons
+	btn-group-md: groups the buttons inside the element with that attribute and turn them into medium buttons
+	btn-group-lg: groups the buttons inside the element with that attribute and turn them into large buttons
+	btn-group-xl: groups the buttons inside the element with that attribute and turn them into extra large buttons
+	btn-group-xxl:groups the buttons inside the element with that attribute and turn them into extra extra large buttons
+	
+	dropdown-toggle: together with a div element with the class "dropdown-menu", the element will act as a dropdown menu button
+		- inside the dropdown menu button, add the attribute data-bs-toggle="dropdown" to enable the dropdown menu button activity
+		
+	dropdown-menu: together with the button element with the class "dropdown-toggle", the element will act as a dropdown menu box
+	dropdown-item: inside the div element with the class "dropdown-menu", the element will act as a dropdown menu content
 	
 	
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
