@@ -283,7 +283,19 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 
 Class 14:
-		
+	align-items-start: together with a row class div, aligns the elements inside to the top
+	align-items-center: together with a row class div, aligns the elements inside to the center
+	align-items-end: together with a row class div, aligns the elements inside to the bottom
+	
+	align-self-start: aligns the current element to the top
+	align-self-center: aligns the current element to the center
+	align-self-end: aligns the current element to the bottom
+	
+	justify-content-start: together with a row class div, aligns the elements inside to the left
+	justify-content-center: together with a row class div, aligns the elements inside to the center
+	justify-content-end: together with a row class div, aligns the element inside to the right
+	
+	order-*: makes the elements display in an numerical numerical order
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
