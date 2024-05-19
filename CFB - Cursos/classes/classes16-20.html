@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Class 01 Start - How to use Bootstrap -->
+            <!-- Import Bootstrap CSS, Bootstrap Scripts  -->
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+            <link rel="stylesheet" href="./src/css/style.css">
+            <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script> -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+            
+            <title>Classes 16 - 20</title>
+    </head>
+    <body>
+        <h1>Class 16</h1>
+        <div class="container">
+            <div class="progress" style="height: 3.5em;">
+                <div id="pb1" class="progress-bar progress-bar-striped progress-bar-animated bg-warning my-auto mx-1" style="width: 50%; height: 3em;"> 50% </div>
+            </div>
+        </div>
+        
+        <script>
+            let bar = document.getElementById("pb1");
+            let load = 0;
+            let intBar = setInterval(() =>{
+                bar.innerHTML=load + "%";
+                bar.style.width=load + "%";
+                load++;
+                if (load >= 100){
+                    load = 0;
+                }
+            },100);
+        </script>
+
+        <br><hr><br>
+        
+        <h1>Class 17</h1>
+            <div class="spinner-border"></div>
+            <div class="spinner-border text-primary"></div>
+            <div class="spinner-border text-danger"></div>
+            <div class="spinner-border text-warning"></div>
+            <div class="spinner-border spinner-border-sm text-success"></div>
+            <div class="spinner-grow text-success"></div>
+            <div class="spinner-grow spinner-grow-sm text-success"></div>
+            
+        <br><hr><br>
+        
+        <h1>Class 18</h1>
+            <ul class="pagination">
+                <li class="page-item" onclick="activate(this)"><a href="#" class="page-link"> Previous </a></li>
+                <li class="page-item active" onclick="activate(this)"><a href="#" class="page-link"> 1 </a></li>
+                <li class="page-item" onclick="activate(this)"><a href="#" class="page-link"> 2 </a></li>
+                <li class="page-item" onclick="activate(this)"><a href="#" class="page-link"> 3 </a></li>
+                <li class="page-item" onclick="activate(this)"><a href="#" class="page-link"> 4 </a></li>
+                <li class="page-item" onclick="activate(this)"><a href="#" class="page-link"> Next </a></li>
+            </ul>
+
+            <script>
+                const activate=(element) => {
+                    let items = document.getElementsByClassName("page-item");
+                    for (let i = 0; i < items.length; i++) {
+                        items[i].classList.remove("active");
+                    }
+                    element.classList.add("active");
+                }
+            </script>
+
+        <br><hr><br>
+        
+        <h1>Class 19</h1>
+
+        <br><hr><br>
+        
+        <h1>Class 20</h1>
+
+        <br><hr><br>
+       
+    </body>
+</html>
