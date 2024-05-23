@@ -260,12 +260,6 @@ Class 12: Buttons groups
 	btn-group-xl: groups the buttons inside the element with that attribute and turn them into extra large buttons
 	btn-group-xxl:groups the buttons inside the element with that attribute and turn them into extra extra large buttons
 	
-	dropdown-toggle: together with a div element with the class "dropdown-menu", the element will act as a dropdown menu button
-		- inside the dropdown menu button, add the attribute data-bs-toggle="dropdown" to enable the dropdown menu button activity
-		
-	dropdown-menu: together with the button element with the class "dropdown-toggle", the element will act as a dropdown menu box
-	dropdown-item: inside the div element with the class "dropdown-menu", the element will act as a dropdown menu content
-	
 	
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
@@ -405,6 +399,18 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 
 Class 21: Menu Dropdown
+	dropdown: enables the dropdown menu towards below
+	dropup: enables the dropdown menu towards top
+	dropstart: enables the dropdown menu towards left
+	dropend: enables the dropdown menu towards right
+	
+	dropdown-toggle: together with a div element with the class "dropdown-menu", the element will act as a dropdown menu button
+		- inside the dropdown menu button, add the attribute data-bs-toggle="dropdown" to enable the dropdown menu button activity
+		
+	dropdown-menu: together with the button element with the class "dropdown-toggle", the element will act as a dropdown menu box
+	dropdown-header: makes the element styled as a dropdown menu header
+	dropdown-item: inside the div element with the class "dropdown-menu", the element will act as a dropdown menu content
+	dropdown-divider: creates a divider inside the dropdown menu
 	
 	
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
