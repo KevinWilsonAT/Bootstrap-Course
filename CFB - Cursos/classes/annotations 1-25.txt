@@ -418,13 +418,28 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 
 Class 22: Collapse
+	data-bs-toggle="collapse": enables the collapse event to another element
+	data-bs-target="#elementId": targets the above collapse event to a determined element using its id
+	collapse: in a element using the same id specified on the attribute 'data-bs-toggle', applies to itself the collapse event
+	
+	link elements that uses collapse events doesn't need to use the attribute data-bs-target.
+	link elements that uses collapse events applies the id from the attribute data-bs-target inside the href attribute.
 	
 	
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 
-Class 23: Nav pt1
+Class 23: Creating navigation elements (Nav pt1)
+	nav: as a class of the <ul> tag, enables the navigation bar
+	nav-justified: align the items as a justified text
+	nav-tabs: set the navigation items to work as window's tabs
+	nav-pills: set the navigation items to work as rounded rectangles, must be used with the active class inside the <li> tag
+	
+	nav-item: as a class of the <li> tag, creates the navigation items using the contents inside the <li> tag
+	
+	you can use justify-content-start, justify-content-center, justify-content-end classes to set the horizontal positioning of the navigation element
+	
 	
 	
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
