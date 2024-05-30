@@ -1,5 +1,11 @@
 Class 26: Navbar Class (Nav pt4)
-	
+	navbar: enables the navigation bar
+	navbar-expand: set the links in line
+	navbar-nav: group of elements that composes the the navigation bar
+	navbar-brand: the logo of the site
+    nav-item: each one of the navigation bar text items
+	navbar-text: a simple text on the navigation bar
+	navbar-dark: apply text formatting to all text elements
 	
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
