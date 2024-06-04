@@ -12,13 +12,26 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 
 Class 27: Sandwich menu
+	to make the sandwich menu enabled, don't include navbar-expand class
+	
+	navbar-toggler: in a button, enables the button to act as the sandwich menu
+	data-bs-toggle="collapse": makes the menu, which is inside a <div> shrink
+	data-bs-target="#id_name": points to which <div> id will be shrinked
+	navbar-toggler-icon: as a class inside a <span>, makes the sandwich menu icon appear
+	navbar-collapse collapse:	the <div> containing these classes wiil be prepared to be shrinked,
+								must have the same <div> id pointed by the data-bs-target attribute	
 	
 	
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 
-Class 28: Search field on Navbar
+Class 28: Search field on Navbar menu
+	to make a Search field on Navbar menu, make a <form> element with a <input text> element
+	and a <button> element
+	
+	form-control: applies style on form fields
+	btn btn-primary: applies style to the button
 	
 	
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
