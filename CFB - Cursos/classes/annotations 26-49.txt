@@ -72,11 +72,12 @@ Class 31: Creating Modal Window
 	data-bs-toggle="modal": applies the "modal" class to make the element act like a modal window
 	data-bs-target="#<modal_id_name>": which element will be affected
 	modal-dialog: the modal window
-    modal-sm: sets the modal window size to small
-	modal-lg: sets the modal window size to large
-	modal-xl: sets the modal window size to extra large
-	modal-fullscreen: sets the modal window size to fullscreen
-	modal-dialog-scrollable: enables scrolling text on the modal window
+		modal-sm: sets the modal window size to small
+		modal-lg: sets the modal window size to large
+		modal-xl: sets the modal window size to extra large
+		modal-fullscreen: sets the modal window size to fullscreen
+		modal-dialog-scrollable: enables scrolling text on the modal window
+	
 	modal-content: the modal window content
     modal-header: the modal window header
     modal-title: the modal window header title
@@ -90,6 +91,18 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 
 Class 32: Creating Side window Offcanvas
+	data-bs-toggle="offcanvas": applies the "offcanvas" class to make the element act like a offcanvas menu
+	data-bs-target="#<offcanvas_id_name>": which element will be affected
+	offcanvas: the offcanvas menu
+		offcanvas-top: set the offcanvas menu to ocuppy the top of the page
+		offcanvas-bottom: set the offcanvas menu to ocuppy the bottom of the page
+		offcanvas-start: set the offcanvas menu to ocuppy the left side of the page
+		offcanvas-end: set the offcanvas menu to ocuppy the right side of the page
+	
+	offcanvas-header: the offcanvas menu header
+	offcanvas-title: the offcanvas menu title
+	data-bs-dismiss="offcanvas": inside a button, it's the close button of the offcanvas menu
+	offcanvas-body: the offcanvas menu body
 	
 	
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
