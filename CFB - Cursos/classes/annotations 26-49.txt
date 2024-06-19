@@ -69,6 +69,20 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 
 Class 31: Creating Modal Window
+	data-bs-toggle="modal": applies the "modal" class to make the element act like a modal window
+	data-bs-target="#<modal_id_name>": which element will be affected
+	modal-dialog: the modal window
+    modal-sm: sets the modal window size to small
+	modal-lg: sets the modal window size to large
+	modal-xl: sets the modal window size to extra large
+	modal-fullscreen: sets the modal window size to fullscreen
+	modal-dialog-scrollable: enables scrolling text on the modal window
+	modal-content: the modal window content
+    modal-header: the modal window header
+    modal-title: the modal window header title
+    data-bs-dismiss="modal": inside a button, it's the close button of the modal
+	modal-body: the modal window body
+	modal-footer: the modal window footer
 	
 	
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
