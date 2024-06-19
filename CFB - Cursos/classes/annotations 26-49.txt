@@ -39,13 +39,29 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 
 Class 29: Carousel
-	
+	carousel slide: sets the div to act like a slider carousel
+	data-bs-ride="carousel": enables the images to act like a slider carousel
+	carousel-indicators: sets and style the buttons to act as slider indicators
+	carousel-inner: sets and styles the images inside the carousel
+	carousel-item: sets the images inside the carousel to act as items
+	carousel-control-prev: sets and style the button to act as "previous image" slider controller
+	carousel-control-next: sets and style the button to act as "next image" slider controller
+	data-bs-target="#id_name": in this case, points which <div> id will be affected
+	data-bs-slide-to: which image will be display upon clicking the indicator button
+		"<number>": an specific image, used in the indicators
+		
+	data-bs-slide: which image will be display upon clicking the controller buttons
+		"prev": previous image, used in the controllers
+		"next": next image, used in the controllers
+		carousel-control-prev-icon: the previous icon used inside the span tag
+		carousel-control-next-icon: the next icon used inside the span tag
 	
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 
 Class 30: Add text to carousel
+	carousel-caption: using a div tag, enables text inside it to be displayed inside the carousel slider
 	
 	
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
