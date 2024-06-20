@@ -190,6 +190,10 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 
 Class 37: Utilitary Classes pt5 - Shadow class
+	shadow: applies medium shadow to the element
+	shadow-sm: applies small shadow to the element
+	shadow-lg: applies large shadow to the element
+	shadow-none: removes shadow from the element
 	
 	
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
@@ -197,6 +201,11 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 
 Class 38: Utilitary Classes pt6 - Ratio class
+	ratio: enables ratio resolution to the element
+		ratio-1x1: sets the element ratio resolution to 1:1
+		ratio-4x3: sets the element ratio resolution to 4:3
+		ratio-16x9: sets the element ratio resolution to 16:9
+		ratio-21x9: sets the element ratio resolution to 21:9
 	
 	
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
@@ -204,6 +213,9 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 
 Class 39: Display flex class pt1
+	d-flex: enables display flex to the elements inside
+		flex-column: sets the elements inside to line up vertically (without setting width class on them, they ocuppy the total width of the parent element)
+		flex-row: sets the elements inside to line up horizontally (without setting width class on them, they ocuppy the minimum width to fit its contents)
 	
 	
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
@@ -211,6 +223,13 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 
 Class 40: Display flex class pt2 - Horizontal Alignment - Justify Content Class
+	justify-content-start: sets all the elements inside to the left
+	justify-content-end: sets all the elements inside to the right
+	justify-content-center: sets all the elements inside to the center
+		flex-fill: fills the remaining spaces between the elements
+	
+	justify-content-between: sets equal spaces between the elements inside
+	justify-content-around: sets spaces around the elements inside
 	
 	
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
