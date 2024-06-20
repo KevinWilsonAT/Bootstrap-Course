@@ -128,13 +128,58 @@
 
         <br><hr><br>
         
-        <h1>Class 34</h1>
+        <h1>Class 34 - Float left, Float Right and Clearfix</h1>
+            <style>
+                .boxes{
+                    border: 1px solid #000;
+                    padding: 6px;
+                    margin: 6px;
+                    color: #fff;
+                }
+                .clear_fix{
+                    clear: both;
+                }
+            </style>
 
+            <h4>Bootstrap float-left, float-right and clearfix; Single &lt;div&gt; block</h4>
+            <div>
+                <div class="boxes bg-primary float-start clearfix">Left 1</div>
+                <div class="boxes bg-primary float-end clearfix">Right 1</div>
+                <div class="boxes bg-success float-start clearfix">Left 2</div>
+                <div class="boxes bg-success float-end clearfix">Right 2</div>
+                <div class="boxes bg-secondary float-start clearfix">Left 3</div>
+                <div class="boxes bg-secondary float-end clearfix">Right 3</div>
+            </div>
+            
+            <div style="height: 100px;"></div>
+            <h4>Bootstrap float-left, float-right and clearfix; Paired &lt;div&gt; blocks</h4>
+            <div class="clearfix">
+                <div class="boxes bg-primary float-start">Left 1</div>
+                <div class="boxes bg-primary float-end">Right 1</div>
+            </div>
+            <div class="clearfix">
+                <div class="boxes bg-success float-start">Left 2</div>
+                <div class="boxes bg-success float-end">Right 2</div>
+            </div>
+            <div class="clearfix">
+                <div class="boxes bg-secondary float-start">Left 3</div>
+                <div class="boxes bg-secondary float-end">Right 3</div>
+            </div>
+            
+            <div style="height: 50px;"></div>
+            <h4>Standard CSS float: left, float: right and clearfix: both; Single &lt;div&gt; block</h4>
+            <div>
+                <div class="boxes bg-primary" style="float: left;">Left 1</div>
+                <div class="boxes bg-primary" style="float: right;">Right 1</div>
+                <div class="boxes bg-success clear_fix" style="float: left;">Left 2</div>
+                <div class="boxes bg-success" style="float: right;">Right 2</div>
+                <div class="boxes bg-secondary clear_fix" style="float: left;">Left 3</div>
+                <div class="boxes bg-secondary" style="float: right;">Right 3</div>
+            </div>
 
+            <div style="height: 150px;"></div>
         <br><hr><br>
         
-        <h1>Class 35</h1>
-
         
     </body>
 </html>
