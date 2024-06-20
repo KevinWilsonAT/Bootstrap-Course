@@ -110,7 +110,28 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 
 Class 33: Utilitary Classes pt1 - Border class and its variations
-	
+	border-3: applies border thickness #3 on all sides of the element
+	border-5: applies border thickness #5 on all sides of the element
+		border-top: enables border on the top of the element
+		border-bottom: enables border on the bottom of the element
+		border-start: enables border on the left side of the element
+		border-end: enables border on the right side of the element
+		border-top-0: removes border on the top of the element
+		border-bottom-0: removes border on the bottom of the element
+		border-start-0: removes border on the left side of the element
+		border-end-0: removes border on the right side of the element
+		
+	rounded: applies normal rounded corners to the element
+	rounded-1: applies light rounded corners to all sides of the element
+	rounded-2: applies normal rounded corners to all sides of the element
+	rounded-3: applies strong rounded corners to all sides of the element
+		rounded-start: applies the above rounded classes to the upper and lower left side corners of the element
+		rounded-end: applies the above rounded classes to the upper and lower right side corners of the element
+		rounded-top: applies the above rounded classes to the upper left and right side corners of the element
+		rounded-bottom: applies the above rounded classes to the lower left and right side corners of the element
+
+	rounded-circle: transform the element into a circle
+	rounded-pill: transform the element into a rectangle with a semicircled sides
 	
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
