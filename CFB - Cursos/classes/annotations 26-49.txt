@@ -148,6 +148,19 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 
 Class 35: Utilitary Classes pt3 - Width, Height and Center Classes
+	w-25: sets the width of the element to 25% of the parent element width
+    w-50: sets the width of the element to 50% of the parent element width
+    w-75: sets the width of the element to 75% of the parent element width
+    w-100: sets the width of the element to 100% of the parent element width
+    w-auto: sets the width of the element to the default width (the parent element width?)
+	mb-<1~5>: margin bottom spacing (1 - minimum, 5 - maximum)
+    mt-<1~5>: margin top spacing (1 - minimum, 5 - maximum)
+	my-<1~5>: margin top and bottom spacing (1 - minimum, 5 - maximum)
+	ms-<1~5>: margin left spacing (1 - minimum, 5 - maximum)
+    me-<1~5>: margin right spacing (1 - minimum, 5 - maximum)
+	mx-<1~5>: margin left and right spacing (1 - minimum, 5 - maximum)
+	mx-auto: centers the element horizontally
+	my-auto: centers the element vertically
 	
 	
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
@@ -155,6 +168,21 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 
 Class 36: Utilitary Classes pt4 - Internal spacing (Padding) and External spacing (Margin)
+	mb-<1~5>: margin (external) bottom spacing (1 - minimum, 5 - maximum)
+    mt-<1~5>: margin (external) top spacing (1 - minimum, 5 - maximum)
+	my-<1~5>: margin (external) top and bottom spacing (1 - minimum, 5 - maximum)
+	ms-<1~5>: margin (external) left spacing (1 - minimum, 5 - maximum)
+    me-<1~5>: margin (external) right spacing (1 - minimum, 5 - maximum)
+	mx-<1~5>: margin (external) left and right spacing (1 - minimum, 5 - maximum)
+	mx-auto: centers the element horizontally
+	my-auto: centers the element vertically
+	
+	pb-<1~5>: padding (internal) bottom spacing (1 - minimum, 5 - maximum)
+    pt-<1~5>: padding (internal) top spacing (1 - minimum, 5 - maximum)
+	py-<1~5>: padding (internal) top and bottom spacing (1 - minimum, 5 - maximum)
+	ps-<1~5>: padding (internal) left spacing (1 - minimum, 5 - maximum)
+    pe-<1~5>: padding (internal) right spacing (1 - minimum, 5 - maximum)
+	px-<1~5>: padding (internal) left and right spacing (1 - minimum, 5 - maximum)
 	
 	
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
