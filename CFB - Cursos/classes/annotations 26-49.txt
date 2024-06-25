@@ -222,28 +222,40 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 
-Class 40: Display flex class pt2 - Horizontal Alignment - Justify Content Class
-	justify-content-start: sets all the elements inside to the left
-	justify-content-end: sets all the elements inside to the right
-	justify-content-center: sets all the elements inside to the center
-		flex-fill: fills the remaining spaces between the elements
-	
-	justify-content-between: sets equal spaces between the elements inside
-	justify-content-around: sets spaces around the elements inside
-	
-	
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Class 40 and 41 : Display flex class pt2 - Horizontal Alignment - Justify Content Class / Display flex class pt3 - Align Content Class vs. Justify Content Class
 
+	Horizontal alignment:
 
-Class 41: Display flex class pt3 - Align Content Class vs. Justify Content Class
+		justify-content-start: sets all the elements inside to the left
+		justify-content-center: sets all the elements inside to the center
+		justify-content-end: sets all the elements inside to the right
+			flex-fill: fills the remaining spaces between the elements
+		
+		justify-content-between: horizontally sets equal spaces between the elements inside
+		justify-content-around: horizontally sets spaces around the elements inside
 	
+
+	Vertical alignment:
+	
+		align-content-start: sets all the elements inside to the top
+		align-content-center: sets all the elements inside to the middle
+		align-content-end: sets all the elements inside to the bottom
+		
+		align-content-between: vertically sets equal spaces between the elements inside
+		align-content-around: vertically sets spaces around the elements inside
+
 	
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 
 Class 42: Display flex class pt4 - Automatic margin Class
+	mb-auto: sets the element to the top
+    mt-auto: sets the element to the bottom
+	my-auto: sets the element to the middle
+	ms-auto: sets the element to the right
+    me-auto: sets the element to the left
+	mx-auto: sets the element to the center
 	
 	
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
@@ -251,21 +263,25 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 
 Class 43: Display flex class pt5 - Automatic Alignment
+	align-content-start: sets the element to the left
+	align-content-center: sets the element to the center
+	align-content-end: sets the element to the right
 	
 	
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 
-Class 44: Formulary Classes pt1
-	
-	
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-
-
-Class 45: Formulary Classes pt2
-	
+Class 44 and 45: Formulary Classes
+	form-control: styles the formulary
+		form-label: styles the label tag
+		form-select: styles the select tag
+		form-check-input: styles the checkbox tag
+		form-range: styles the range tag
+		
+	was-validated: check as validated all the formulary fields
+	valid-feedback: display a message in a valid feedback
+    invalid-feedback: display a message in a invalid feedback
 	
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
